@@ -1,0 +1,135 @@
+.background {
+  background-image: linear-gradient(to right, #4183d9, #384255);
+  min-height: 100vh;
+  padding-top: 20px;
+  margin: -7px;
+}
+
+.heading {
+  font-family: roboto;
+  text-align: center;
+  font-size: 40px;
+  color: #24bf5b;
+}
+
+.listItems {
+}
+.ulList {
+  list-style-type: none;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+.popupContainer {
+  background-image: linear-gradient(to right, #294d5c, #13262e);
+  /* width: 400px; */
+  min-width: 70%;
+  min-height: 230px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .popupContainer {
+    width: 800px;
+  }
+}
+
+.crossStyle {
+  color: #ffffff;
+  font-size: 30px;
+}
+.topContainer {
+  display: flex;
+  margin-bottom: 3%;
+}
+.category {
+  margin: auto;
+  text-align: center;
+  font-family: recta, roboto;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+}
+.popup {
+}
+.crossBox {
+  padding: 5px;
+}
+.jokeBox {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+}
+.joke {
+  font-family: recta, roboto;
+  color: #dbeafe;
+  font-weight: 480;
+}
+.refreshButton {
+  width: 60%;
+
+  border-style: solid;
+  border-color: #1d4ed8;
+  background-color: #1d4ed8;
+  height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.loaderProperties {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+}
+
+.container {
+  background-color: #ffffff;
+  width: 230px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+
+.selectedContainer {
+  background-color: #94a3b8;
+  width: 230px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+.animalHeading {
+  text-align: center;
+  font-family: recta, roboto;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: #1e3a8a;
+  font-size: 25px;
+}
+
+.eachPara {
+  text-align: center;
+  font-family: recta, roboto;
+  margin-top: 0px;
+  color: #6b5fc5;
+  font-size: 14px;
+}
